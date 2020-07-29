@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:padding="15dp"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Favourite Color"
+        android:textSize="30dp"
+        android:paddingTop="100dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:layout_gravity="center_horizontal"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center_horizontal"
+        android:paddingTop="25dp">
+
+        <CheckBox
+            android:id="@+id/ylw"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="YELLOW" />
+
+        <CheckBox
+            android:id="@+id/grn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="GREEN" />
+
+        <CheckBox
+            android:id="@+id/bl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BLUE" />
+
+        <CheckBox
+            android:id="@+id/rd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RED" />
+
+        <CheckBox
+            android:id="@+id/blk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BLACK" />
+
+
+    </LinearLayout>
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_gravity="center_vertical"
+    >
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:text="Select Color"
+        />
+
+    <TextView
+        android:id="@+id/result"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:textColor="#161615"
+        android:layout_height="wrap_content"
+        android:text="">
+
+    </TextView>
+
+</LinearLayout>
+</LinearLayout>
